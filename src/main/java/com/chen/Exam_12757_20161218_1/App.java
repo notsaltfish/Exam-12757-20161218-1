@@ -19,6 +19,8 @@ public class App
     		int s =(int) Math.sqrt(i);
     		j=2;
     		//使用平方根来求
+    		//因为使用平方根的注释就会把效率提升很多，
+    		//为什么老是提交不上去
     		while(j<=s){
     			if(i%j==0){
     				isPrimeNumber=false;
