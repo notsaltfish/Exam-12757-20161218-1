@@ -16,7 +16,9 @@ public class App
     	for(int i=101;i<=200;i++){
     		int j=2;
     		boolean isPrimeNumber = true ;
-    		while(j<i){
+    		int s =(int) Math.sqrt(i);
+    		j=2;
+    		while(j<=s){
     			if(i%j==0){
     				isPrimeNumber=false;
     				break;
