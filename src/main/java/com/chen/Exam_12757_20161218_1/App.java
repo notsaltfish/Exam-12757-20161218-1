@@ -21,6 +21,7 @@ public class App
     		//使用平方根来求
     		//因为使用平方根的注释就会把效率提升很多，
     		//为什么老是提交不上去
+    		//现在可以提交了,原来是要现在本地提交才可以远程提交
     		while(j<=s){
     			if(i%j==0){
     				isPrimeNumber=false;
