@@ -18,6 +18,7 @@ public class App
     		boolean isPrimeNumber = true ;
     		int s =(int) Math.sqrt(i);
     		j=2;
+    		//使用平方根来求
     		while(j<=s){
     			if(i%j==0){
     				isPrimeNumber=false;
